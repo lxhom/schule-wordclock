@@ -1,0 +1,84 @@
+<script src="helloworld.js"></script>
+
+Auf 
+<button 
+    id="btnbox"
+    disabled="true"
+    onclick="
+        areaStyle = document.getElementById('area').style;
+        document.getElementById('btnbox').disabled = true;
+        document.getElementById('btnbg').disabled = false;
+    "
+>
+    der Box
+</button>
+<button 
+    id="btnbg"
+    onclick="
+        areaStyle = document.body.style;
+        document.getElementById('btnbox').disabled = false;
+        document.getElementById('btnbg').disabled = true;
+    "
+>
+    der gesamten Seite
+</button> 
+den Code 
+<input
+    type="number" 
+    id="code" 
+    value="3302113111030120"
+> 
+blinken
+<br>
+<span id="fpspan" hidden="true">
+    Mit 
+    <input 
+        type="number" 
+        min="1" 
+        max="120" 
+        value="30" 
+        id="FPS"
+    >
+    FPS 
+</span>
+<button 
+    id="start"
+    onclick="
+        document.getElementById('stop').disabled = false;
+        document.getElementById('start').disabled = true;        
+        startSender(document.getElementById('code').value, document.getElementById('FPS').value)
+    "
+>
+    starten
+</button>
+<button
+    id="stop" 
+    disabled="true"
+    onclick="
+        document.getElementById('stop').disabled = true;
+        document.getElementById('start').disabled = false;
+        stopSender();
+        areaStyle.backgroundColor='white'
+    "
+>
+    stoppen
+</button>
+<input 
+    id="debugopt"
+    type="checkbox"
+    onchange="
+        var fpspan = document.getElementById('fpspan');
+        if (document.getElementById('debugopt').checked) {
+            fpspan.hidden=false
+        } else {
+            fpspan.hidden=true
+        }
+    "
+>
+Debug-Optionen anzeigen
+
+<br><br>
+<textarea 
+    id="area" 
+    style="width: 120px; height: 120px;">
+</textarea>

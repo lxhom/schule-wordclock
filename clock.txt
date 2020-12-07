@@ -1,0 +1,27 @@
+   0 1 2 3 4 5 6 7 8 9 10
+0  e s H i s t G f ü n f
+1  z e h n z w a n z i g
+2  v i e r t e l E v o r
+3  n a c h Ä h a l b X I
+4  z w e i n s i e b e n
+5  e l f ü n f z w ö l f
+6  z e h n e u n d r e i
+7  a c h t P L s e c h s
+8  v i e r u h r S Y N C
+
+
+   0 1 1 2                 
+  |5|0|5|0|V|N|H|0|1|u
+00| | | | | | | |x| |x
+05|x| | | | |x| |x| |
+10| |x| | | |x| |x| |
+15| | |x| | |x| |x| |
+20| | | |x| |x| |x| |
+25|x| | | |x| |x| |x|
+30| | | | | | |x| |x|
+35|x| | | | |x|x| |x|
+40| | | |x|x| | | |x|
+45| | |x| |x| | | |x|
+50| |x| | |x| | | |x|
+55|x| | | |x| | | |x|
+
