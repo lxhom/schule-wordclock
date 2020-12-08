@@ -282,9 +282,9 @@ What you're seeing here is the array with objects. This might seem like a bug, b
 function parser(array) { // Parser function
   var outputArray = []; // Create a empty output array
   for (var each of array) { // Loop through every object
-    outputArray.push(each.text);
+    outputArray.push(each.text); // Add the text from each object to the array
   } // For end
-  return outputArray.join(" "); // Return the array, joined with spaces for human readability
+  return outputArray.join(" "); // Return the array, joined with spaces for human readability. beep boop
 } // End function (parser)
 ```
 
