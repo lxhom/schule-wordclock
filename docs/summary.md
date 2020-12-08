@@ -18,18 +18,17 @@ Before we get started, i'd like to mention three things:
 3. I use a lot of links, and not just for fun, but to show references or informations. I highly reccomend to cheack out every link, and if you get tired of clicking every single link, try hovering over it to see where its destination is, or to be precise, which paragraph is linked. [You can try it here](#Here-are-destinations-or-paragraphs-displayed). A good example for the additional infos are two quotes at the beginning of [the first chapter](#making-the-letter-matrix), try hovering over the words at the two quotes.
 
 So to start off, here's an example to give you the gist:
-###### (note: ignore the quotation marks, they are used to highlight words)
 
-```js
-"e s"H"i s t"G f ü n f
- z e h n"z w a n z i g"
- v i e r t e l E"v o r"
- n a c h Ä h a l b X I
- z w e i n"s i e b e n"
- e l f ü n f z w ö l f
- z e h n e u n d r e i
- a c h t P L s e c h s
- v i e r u h r S Y N C
+```
+E S h I S T g f ü n f
+z e h n Z W A N Z I G
+v i e r t e l e V O R
+n a c h ä h a l b x i
+z w e i n S I E B E N
+e l f ü n f z w ö l f
+z e h n e u n d r e i
+a c h t p l s e c h s
+v i e r u h r s y n c
 ```
 
 If you look at all the letters, you can see how this clock works. It has all words that are required to spell out every time of the day with 5 minutes accuracy on it, allowing you to display the time by highlighting some of the words (see the [example](#(note:-ignore-the-quotation-marks,-they-are-used-to-highlight-words))). And that's basically it.
