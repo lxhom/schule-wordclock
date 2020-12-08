@@ -19,7 +19,7 @@ Before we get started, i'd like to mention three things:
 
 So to start off, here's an example to give you the gist:
 
-```
+```js
 E S h I S T g f ü n f
 z e h n Z W A N Z I G
 v i e r t e l e V O R
