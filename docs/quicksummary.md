@@ -31,7 +31,7 @@ v i e r u h r s y n c
 
 If you look at all the letters, you can see how this clock works. It has all words that are required to spell out every time of the day with 5 minutes accuracy on it, allowing you to display the time by highlighting some of the words (see the [example](#(note:-ignore-the-quotation-marks,-they-are-used-to-highlight-words))). And that's basically it.
 
-But making it a real thing isnt that easy, because you need to do x things:
+But making it a real thing isnt that easy, because you need to do these things:
 1. [Make a letter matrix with all words on it, with the least possible amount of letters.](#For-more-infos-and-the-full-documentation-go-to-the-full-summary)
 2. [Make a program that gives you the time in words.](#For-more-infos-and-the-full-documentation-go-to-the-full-summary)
 3. [Make a program that displays the words on the matrix.](#For-more-infos-and-the-full-documentation-go-to-the-full-summary)
